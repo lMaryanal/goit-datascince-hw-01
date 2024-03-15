@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-01-poetry"
+version = "1"
+description = "Personal assistant"
+authors = ["lMaryanal <maryana.shcherbak@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_01_poetry"}]
+
+[tool.poetry.dependencies]
+python = "3.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
